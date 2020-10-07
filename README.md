@@ -146,7 +146,7 @@ Mirrorbits has a mode called *seamless binary upgrade* to upgrade the server exe
 mirrorbits upgrade
 ```
 
-## Considerations
+# Considerations
 
 * When configured in redirect mode, Mirrorbits can easily serve client requests directly but it is usually recommended to set it behind a reverse proxy like nginx. In this case take care to pass the IP address of the client within a X-Forwarded-For header:
 ```
@@ -154,14 +154,14 @@ proxy_set_header X-Forwarded-For $remote_addr;
 ```
 * It is advised to never cache requests intended for Mirrorbits since each request is supposed to be unique, caching the result might have unexpected consequences.
 
-# We're social!
+## We're social!
 
 The best place to discuss about mirrorbits is to join the #VideoLAN IRC channel on Freenode.  
 For the latest news, you can follow [@mirrorbits](http://twitter.com/mirrorbits) on Twitter.
-
-# License MIT
-
-> Permission is hereby granted, free of charge, to any person obtaining a copy
+### License MIT 
+License MIT
+```
+>Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -178,3 +178,4 @@ For the latest news, you can follow [@mirrorbits](http://twitter.com/mirrorbits)
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 > THE SOFTWARE.
+```
