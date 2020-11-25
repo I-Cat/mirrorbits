@@ -1,5 +1,5 @@
-bin
-dist
-tmp
-*~
-.vscode
+# bin
+# dist
+# tmp
+# *~
+# .vscode
