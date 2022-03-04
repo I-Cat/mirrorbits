@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1-bullseye
 
 LABEL maintainer="etix@l0cal.com"
 
